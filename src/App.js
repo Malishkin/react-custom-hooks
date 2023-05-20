@@ -1,10 +1,13 @@
-
+import React from "react";
+import NegativeCounter from "./components/NegativeCounter";
+import PositiveCounter from "./components/PositiveCounter";
 
 function App() {
   return (
-    <div>
-      <h1>Custom Hook App</h1>
-    </div>
+    <React.Fragment>
+      <PositiveCounter />
+      <NegativeCounter />
+    </React.Fragment>
   );
 }
 
